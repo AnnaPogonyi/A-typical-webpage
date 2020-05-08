@@ -1,0 +1,38 @@
+header {
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+}
+ ul {
+     display: flex;
+     flex-direction: row;
+ }
+li {
+    height: 30px;
+    width: 100px;
+    background-color: cyan;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.bigger {
+    width: 150px;
+  }
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    background-color: yellow;
+    height: 500px;
+    flex-grow: 4;
+    
+}
+aside {
+    background-color: green;
+    height: 500px;
+    flex-grow: 1;
+}
